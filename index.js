@@ -1,16 +1,14 @@
+//Test 1
 function saturdayFun(activity = "roller-skate"){
-
-    console.log(`This Saturday, I want to ${activity}!`);
-}
-saturdayFun("bathe my dog")
-
-const mondayWork = function (fn = "go to the office"){
-    console.log(`This Monday, I will ${fn}`);
+    return (`This Saturday, I want to ${activity}!`);
 }
 
+//Test 2
+function mondayWork(event = "go to the office"){
+    return `This Monday, I will ${event}.`;
+}
+
+//Test 3
 function wrapAdjective(){
-    return function(prm = "special"){
-        return `You are ${prm}`
-    }
-        
+ 
 }
